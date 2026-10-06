@@ -1,0 +1,819 @@
+{
+  "title": "The history of the extension board",
+  "tagline": "About 140 years from appliances screwed into lamp sockets to a strip of sockets with a fuse, a varistor and a standard of its own.",
+  "intro": "Electricity first came into homes for lighting, so the only place to plug anything in was the lamp socket. Plugs that pull apart, a third pin for earth, fuses, breakers and the varistor were each invented to fix one danger at a time. The extension board gathers them into one cheap box. India kept the round-pin plugs it inherited in 1947, and in 2024 it gave the extension board its own standard.",
+  "eras": [
+    {
+      "id": "lamp",
+      "name": "Borrowing the lamp socket",
+      "from": 1880,
+      "to": 1905,
+      "color": "#ffb547",
+      "summary": "Homes are wired for light only. Fans, irons and toasters screw into the lamp holder."
+    },
+    {
+      "id": "plug",
+      "name": "Plugs, pins and earth",
+      "from": 1900,
+      "to": 1990,
+      "color": "#8ef0ff",
+      "summary": "The separable plug, the earth pin, and national standards that never agreed with each other."
+    },
+    {
+      "id": "guard",
+      "name": "Fuses, breakers and varistors",
+      "from": 1750,
+      "to": 2010,
+      "color": "#ff7a59",
+      "summary": "A weak wire, a bending strip of two metals, and a ceramic disc that swallows voltage spikes."
+    },
+    {
+      "id": "strip",
+      "name": "Many sockets on one cord",
+      "from": 1929,
+      "to": 2015,
+      "color": "#c49bff",
+      "summary": "From the 1929 Table Tap to the unpatented Australian power board and USB ports."
+    },
+    {
+      "id": "india",
+      "name": "Standards and safety in India",
+      "from": 1947,
+      "to": 2026,
+      "color": "#5ce1a9",
+      "summary": "Round pins kept from British days, rules for earthing, the ISI mark, and a standard for the board itself."
+    }
+  ],
+  "events": [
+    {
+      "year": 1759,
+      "date": "1759",
+      "era": "guard",
+      "art": "spring2",
+      "key": false,
+      "title": "A strip of two metals that bends with heat",
+      "who": "John Harrison",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "The clockmaker John Harrison invented the bimetallic strip for his third sea clock, H3, to cancel the effect of temperature on its balance spring. Two metals bonded together expand by different amounts, so the strip curls as it warms.",
+      "why": "The same curling strip later became the heart of thermostats and of the thermal breaker in an extension board.",
+      "box": "protect",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1847,
+      "date": "mid-1800s",
+      "era": "guard",
+      "art": "resistor",
+      "key": false,
+      "title": "A weak link that melts on purpose",
+      "who": "Louis Breguet and others (attributed)",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Telegraph engineers found that lightning and faults could burn out their instruments. Louis Breguet is credited with suggesting a short piece of thinner wire that would melt first. By 1864 fusible wires and foils protected telegraph lines and lighting installations.",
+      "why": "A fuse still works this way: it is the one part of the circuit that is meant to fail.",
+      "box": "protect",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1881,
+      "date": "1880–1881",
+      "era": "lamp",
+      "art": "bolt",
+      "key": true,
+      "title": "The lamp socket becomes the first outlet",
+      "who": "Thomas Edison",
+      "where": "Menlo Park, New Jersey, USA",
+      "country": "USA",
+      "text": "Edison designed the screw base for his lamps in 1880 and applied for a patent in 1881. Homes were wired only for lighting, so early toasters, irons and fans were screwed into a lamp socket in place of the bulb.",
+      "why": "For twenty years the only place to take power from was the light fitting.",
+      "box": "anatomy",
+      "sources": [
+        2,
+        1
+      ]
+    },
+    {
+      "year": 1882,
+      "date": "1882",
+      "era": "lamp",
+      "art": "plug",
+      "key": false,
+      "title": "A two-pin plug and socket",
+      "who": "T. T. Smith",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Smith received British patent 4162 of 1882 for an 'electric-circuit connection', and a US patent for it in 1885. By about 1885 two-pin plugs and wall sockets were on sale in Britain.",
+      "why": "It was one of the first connectors made for taking power from the wall, not from a lamp holder.",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1890,
+      "date": "1890",
+      "era": "guard",
+      "art": "flame",
+      "key": false,
+      "title": "Edison patents a fuse",
+      "who": "Thomas Edison",
+      "where": "New Jersey, USA",
+      "country": "USA",
+      "text": "Edison received a patent for a fuse as part of his electric distribution system. Screw-in fuses, using his lamp base, protected American homes for decades.",
+      "why": "Protection by a replaceable weak link became part of every installation.",
+      "box": "protect",
+      "sources": [
+        13,
+        2
+      ]
+    },
+    {
+      "year": 1904,
+      "date": "8 November 1904",
+      "era": "plug",
+      "art": "plug",
+      "key": true,
+      "title": "The plug you can pull out",
+      "who": "Harvey Hubbell",
+      "where": "Bridgeport, Connecticut, USA",
+      "country": "USA",
+      "text": "Hubbell's 'separable attachment-plug', US patent 774,250, was filed on 26 February 1903 and granted on 8 November 1904. One half stayed screwed into the lamp socket. The other half, on the appliance cord, pushed in and pulled out with no bare wires and no sparks.",
+      "why": "It separated the plug from the socket, the idea behind every plug and every extension board since.",
+      "box": "anatomy",
+      "sources": [
+        3,
+        0
+      ]
+    },
+    {
+      "year": 1911,
+      "date": "by 1911",
+      "era": "plug",
+      "art": "earth",
+      "key": false,
+      "title": "A third pin for earth",
+      "who": "A. P. Lundberg & Sons",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "A book of 1911 describes Lundberg's 'Tripin' earthed plug in 2.5 A and 5 A sizes, with a pin layout almost the same as the later British round-pin plugs. The first three-pin earthed plugs had appeared by about 1910.",
+      "why": "A metal-bodied appliance could now be tied to earth through its own plug.",
+      "box": "surge",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1915,
+      "date": "1915",
+      "era": "plug",
+      "art": "scroll",
+      "key": true,
+      "title": "The earth pin is made longer",
+      "who": "George P. Knapp for Harvey Hubbell; British Engineering Standards Association",
+      "where": "USA and United Kingdom",
+      "country": "USA",
+      "text": "Knapp's US patent 1,179,728, filed on 11 January 1915, covered an earthing pin that reaches further than the other contacts, so earth connects first and parts last. The same year British Standard 73, for five-ampere two-pin wall plugs, became what is believed to be the earliest national plug standard.",
+      "why": "The long earth pin is still how Indian and British plugs work, and it is what opens a socket's shutters.",
+      "box": "anatomy",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1924,
+      "date": "1924",
+      "era": "guard",
+      "art": "bolt",
+      "key": false,
+      "title": "A small breaker you can reset",
+      "who": "Hugo Stotz",
+      "where": "Mannheim, Germany",
+      "country": "Germany",
+      "text": "Stotz patented a miniature circuit breaker that put a bimetal strip for overloads and an electromagnet for short circuits into one small switch. Unlike a fuse, it could simply be switched on again.",
+      "why": "The MCB in the wall and the push-button breaker in a board both descend from it.",
+      "box": "protect",
+      "sources": [
+        14,
+        32
+      ]
+    },
+    {
+      "year": 1925,
+      "date": "c. 1925",
+      "era": "plug",
+      "art": "plug",
+      "key": false,
+      "title": "Schuko: earth on the side",
+      "who": "Albert Büttner (attributed)",
+      "where": "Bavaria, Germany",
+      "country": "Germany",
+      "text": "The German Schuko plug, with earth clips on its sides in place of a third pin, is believed to date from 1925 and is attributed to Albert Büttner. His company was granted patent DE 489 003 in 1930. The name is short for Schutzkontakt, 'protective contact'.",
+      "why": "Europe and Britain solved the same earthing problem in two different shapes, which is why travel adaptors exist.",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1927,
+      "date": "1927",
+      "era": "guard",
+      "art": "chip",
+      "key": false,
+      "title": "The first varistors",
+      "who": "L. O. Grondahl and P. H. Geiger",
+      "where": "USA",
+      "country": "USA",
+      "text": "Work on a copper oxide rectifier in 1927 led to the first voltage-dependent resistors. In the early 1930s R. O. Grisdale made varistors from silicon carbide, which were used to guard telephone lines against lightning.",
+      "why": "The idea of a resistor that gives way above a set voltage was born decades before the part in a spike guard.",
+      "box": "surge",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "year": 1928,
+      "date": "5 June 1928",
+      "era": "plug",
+      "art": "earth",
+      "key": true,
+      "title": "A grounded plug for American homes",
+      "who": "Philip F. Labre",
+      "where": "USA",
+      "country": "USA",
+      "text": "Labre's 'grounding receptacle and plug', US patent 1,672,067, was filed on 12 May 1927 and granted on 5 June 1928. A third prong earthed the appliance through the wall socket itself, with no separate earth clip or wire.",
+      "why": "It gave ordinary household appliances an earth path through the plug.",
+      "box": "surge",
+      "sources": [
+        4,
+        0
+      ]
+    },
+    {
+      "year": 1929,
+      "date": "1929",
+      "era": "strip",
+      "art": "plug",
+      "key": false,
+      "title": "The 'Table Tap'",
+      "who": "Carl M. Petersen",
+      "where": "USA",
+      "country": "USA",
+      "text": "Petersen's Table Tap of 1929 is the earliest known US patent for what we would call a power strip: several outlets in one block on a cord. Another early design came from Allied Electric Products in 1950.",
+      "why": "Homes had too few sockets from the start, and inventors noticed early.",
+      "box": "parallel",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1934,
+      "date": "April 1934",
+      "era": "plug",
+      "art": "scales",
+      "key": true,
+      "title": "BS 546: the round-pin family India still uses",
+      "who": "British Standards Institution",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "BS 546 set out round-pin plugs in 2, 5, 15 and 30 ampere sizes, each with a longer, fatter earth pin. The 5 A plug's earth pin is 0.812 inch long against 0.585 inch for the other two. British India was wired with these plugs.",
+      "why": "India's 6 A and 16 A plugs are the 5 A and 15 A plugs of this standard under a new rating.",
+      "box": "anatomy",
+      "sources": [
+        5,
+        23
+      ]
+    },
+    {
+      "year": 1947,
+      "date": "1947",
+      "era": "plug",
+      "art": "plug",
+      "key": false,
+      "title": "Britain changes plug, India does not",
+      "who": "British Standards Institution",
+      "where": "United Kingdom and India",
+      "country": "United Kingdom",
+      "text": "From 1947 Britain replaced round pins with the rectangular-pin BS 1363 plug, which carries its own fuse to protect the appliance cord. The round-pin plugs stayed common there into the 1960s. India, independent that same year, kept them and still does.",
+      "why": "An Indian plug has no fuse of its own, so the fuse or breaker inside an extension board matters more.",
+      "box": "protect",
+      "sources": [
+        5,
+        23
+      ]
+    },
+    {
+      "year": 1956,
+      "date": "1956",
+      "era": "india",
+      "art": "scroll",
+      "key": false,
+      "title": "The Indian Electricity Rules",
+      "who": "Central Electricity Board",
+      "where": "India",
+      "country": "India",
+      "text": "The Indian Electricity Rules, 1956, set safety rules for installations across the country: earthing, insulation, clearances and protection. Electrical inspectors worked from them for more than fifty years.",
+      "why": "They made the earth connection, the third pin's other end, a legal requirement.",
+      "sources": [
+        24
+      ]
+    },
+    {
+      "year": 1961,
+      "date": "1961",
+      "era": "guard",
+      "art": "heart",
+      "key": false,
+      "title": "A switch that feels a leak",
+      "who": "Charles Dalziel",
+      "where": "Berkeley, California, USA",
+      "country": "USA",
+      "text": "Dalziel, who had measured how much current the human body can stand, built a transistorised device that compares the current in the two wires and cuts the power when a little goes missing. North America calls it a GFCI; India calls it an RCCB.",
+      "why": "It protects people, which no fuse, breaker or varistor in an extension board can do.",
+      "box": "surge",
+      "sources": [
+        16,
+        17
+      ]
+    },
+    {
+      "year": 1968,
+      "date": "1968",
+      "era": "guard",
+      "art": "chip",
+      "key": true,
+      "title": "The zinc oxide varistor",
+      "who": "Michio Matsuoka and colleagues, Matsushita Electric",
+      "where": "Osaka, Japan",
+      "country": "Japan",
+      "text": "Matsushita, now Panasonic, says it developed the zinc oxide varistor in 1968 after an electric furnace overheated and left a ceramic with strange electrical behaviour. It sold the part as the ZNR. Matsuoka published the physics in 1971, and a US patent naming him was filed in 1970 and issued in 1972.",
+      "why": "This small ceramic disc is the whole 'spike' part of a spike guard.",
+      "box": "surge",
+      "sources": [
+        9,
+        10,
+        8
+      ]
+    },
+    {
+      "year": 1970,
+      "date": "1970",
+      "era": "strip",
+      "art": "plug",
+      "key": false,
+      "title": "Strips close to the modern shape",
+      "who": "Fedtro",
+      "where": "USA",
+      "country": "USA",
+      "text": "In 1970 the American firm Fedtro filed two patents for power strips with designs close to those used today.",
+      "why": "The row of sockets in a long case was taking its familiar form.",
+      "box": "anatomy",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1972,
+      "date": "1972",
+      "era": "strip",
+      "art": "plug",
+      "key": true,
+      "title": "The power board, famously unpatented",
+      "who": "Peter Talbot, working under Frank Bannigan at Kambrook",
+      "where": "Australia",
+      "country": "Australia",
+      "text": "The Australian engineer Peter Talbot designed the 'power board' at the appliance maker Kambrook. It sold enormously well, but the company did not patent it, and other makers soon took most of the market.",
+      "why": "It is the product that put a multi-socket board in ordinary homes and offices.",
+      "box": "parallel",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1972,
+      "date": "1972",
+      "era": "guard",
+      "art": "chip",
+      "key": false,
+      "title": "Varistors go on sale worldwide",
+      "who": "General Electric, under licence from Matsushita",
+      "where": "USA",
+      "country": "USA",
+      "text": "General Electric took a licence for the Japanese patents and launched its GE-MOV varistors in 1972. It spent the following years measuring real surges on house wiring and teaching designers how to use the part.",
+      "why": "The name 'MOV' comes from here, and cheap surge protection became possible.",
+      "box": "surge",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "August 1985",
+      "era": "guard",
+      "art": "scales",
+      "key": false,
+      "title": "A safety standard for surge suppressors",
+      "who": "Underwriters Laboratories",
+      "where": "USA",
+      "country": "USA",
+      "text": "As computers spread, plug-in surge suppressors multiplied. UL published the first safety standard for them, UL 1449, in August 1985. A stricter third edition followed in 2009.",
+      "why": "Clamping voltage became a tested, printed number that a buyer could compare.",
+      "box": "choose",
+      "sources": [
+        12,
+        11
+      ]
+    },
+    {
+      "year": 1986,
+      "date": "1986",
+      "era": "plug",
+      "art": "earth",
+      "key": false,
+      "title": "A world plug that the world ignored",
+      "who": "International Electrotechnical Commission",
+      "where": "Geneva, Switzerland",
+      "country": "Switzerland",
+      "text": "The IEC published IEC 60906-1, a compact, safe plug meant to become the single standard for 230 V countries. Only a very few countries adopted it.",
+      "why": "Every country kept its own plug, which is why 'universal' sockets on boards exist.",
+      "sources": [
+        1
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "2007–2014",
+      "era": "strip",
+      "art": "phone",
+      "key": false,
+      "title": "USB moves into the socket",
+      "who": "USB Implementers Forum",
+      "where": "Worldwide",
+      "country": "USA",
+      "text": "The USB Battery Charging specification of 2007 made the USB port an official power outlet, rising to 1.5 A by 2010. USB Power Delivery followed in 2012 and the USB-C connector was finalised in August 2014. Extension boards began to carry USB ports beside their sockets.",
+      "why": "A board with USB ports has a small power supply inside as well as its three bars.",
+      "box": "anatomy",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "2019",
+      "era": "india",
+      "art": "scales",
+      "key": false,
+      "title": "IS 1293 is revised",
+      "who": "Bureau of Indian Standards",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "BIS issued IS 1293:2019, the standard for plugs and socket-outlets up to 250 V and 16 A, replacing the 2005 edition after a changeover period. It covers dimensions, shutters, strength and heating, and requires that the live pins part before the earth connection is broken.",
+      "why": "It is the number to look for beside the ISI mark on a plug or socket.",
+      "box": "choose",
+      "sources": [
+        20,
+        29,
+        22
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "2022",
+      "era": "india",
+      "art": "flame",
+      "key": true,
+      "title": "Short-circuit fires in the national figures",
+      "who": "National Crime Records Bureau",
+      "where": "India",
+      "country": "India",
+      "text": "NCRB's Accidental Deaths & Suicides in India report for 2022 recorded 7,566 accidental fires that killed 7,435 people. Of these, 1,567 fires and 1,486 deaths were put down to electrical short circuits. The figure covers all wiring and equipment, not extension boards alone.",
+      "why": "About one fire death in five was electrical, and most electrical fires start with heat in the wrong place.",
+      "box": "heat",
+      "sources": [
+        21
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "8 June 2023",
+      "era": "india",
+      "art": "scroll",
+      "key": false,
+      "title": "New CEA safety regulations",
+      "who": "Central Electricity Authority",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "The CEA (Measures relating to Safety and Electric Supply) Regulations, 2023, replaced the 2010 version, which had itself replaced the 1956 Rules. Among many rules, they call for residual current protection of not more than 30 mA in homes.",
+      "why": "Shock protection now rests on the RCCB in the house as well as on the earth pin.",
+      "box": "surge",
+      "sources": [
+        25,
+        24
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "2024",
+      "era": "india",
+      "art": "scales",
+      "key": true,
+      "title": "A standard for the extension board itself",
+      "who": "Bureau of Indian Standards",
+      "where": "New Delhi, India",
+      "country": "India",
+      "text": "BIS published IS 18830:2024, 'Cord extension sets: specifications', through its electrical wiring accessories committee. It is a modified adoption of the international standard for cord extension sets, IEC 60884-2-7.",
+      "why": "For the first time the whole board, not only its plug, sockets and cord, has its own Indian Standard.",
+      "box": "choose",
+      "sources": [
+        19
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Bimetallic strip",
+      "value": "1759",
+      "who": "John Harrison, England"
+    },
+    {
+      "label": "Separable plug patented",
+      "value": "8 November 1904",
+      "who": "Harvey Hubbell, USA"
+    },
+    {
+      "label": "Earthed three-pin plugs",
+      "value": "by about 1910",
+      "who": "British makers such as A. P. Lundberg & Sons"
+    },
+    {
+      "label": "Earliest known power strip patent",
+      "value": "1929",
+      "who": "Carl M. Petersen, USA ('Table Tap')"
+    },
+    {
+      "label": "Zinc oxide varistor",
+      "value": "1968",
+      "who": "Matsushita Electric, Japan"
+    },
+    {
+      "label": "The modern power board",
+      "value": "1972",
+      "who": "Peter Talbot, Kambrook, Australia"
+    },
+    {
+      "label": "Indian Standard for cord extension sets",
+      "value": "2024",
+      "who": "Bureau of Indian Standards (IS 18830)"
+    }
+  ],
+  "people": [
+    {
+      "name": "Harvey Hubbell",
+      "life": "1857 – 1927",
+      "role": "Inventor and manufacturer",
+      "from": "USA",
+      "note": "Patented the separable plug in 1904 so that people could connect appliances without handling bare wires."
+    },
+    {
+      "name": "Philip F. Labre",
+      "life": "active 1920s",
+      "role": "Inventor",
+      "from": "USA",
+      "note": "Patented a grounding receptacle and plug in 1928 that earthed the appliance through the socket."
+    },
+    {
+      "name": "Michio Matsuoka",
+      "life": "active 1960s – 1970s",
+      "role": "Ceramics researcher at Matsushita Electric",
+      "from": "Japan",
+      "note": "Led the work on zinc oxide varistors and published their physics in 1971."
+    },
+    {
+      "name": "Peter Talbot",
+      "life": "active 1970s",
+      "role": "Electrical engineer at Kambrook",
+      "from": "Australia",
+      "note": "Designed the power board in 1972, which his company never patented."
+    },
+    {
+      "name": "Charles Dalziel",
+      "life": "1904 – 1986",
+      "role": "Professor of electrical engineering",
+      "from": "USA",
+      "note": "Measured the effects of electric shock on people and invented the ground fault interrupter in 1961."
+    },
+    {
+      "name": "John Harrison",
+      "life": "1693 – 1776",
+      "role": "Clockmaker",
+      "from": "England",
+      "note": "Invented the bimetallic strip in 1759 for a sea clock; it now trips thermal breakers."
+    }
+  ],
+  "series": [
+    {
+      "id": "fires",
+      "title": "Deaths in accidental fires in India",
+      "unit": "deaths per year",
+      "log": false,
+      "after": "india",
+      "caption": "All accidental fires recorded by the National Crime Records Bureau, whatever the cause. Electrical short circuits accounted for 1,486 of the deaths in 2022 and about 17% in 2024.",
+      "points": [
+        {
+          "year": 2015,
+          "value": 17700,
+          "label": "2015: 17,700 (NCRB, as reported by Dataful)"
+        },
+        {
+          "year": 2022,
+          "value": 7435,
+          "label": "2022: 7,435, of which 1,486 from electrical short circuits (NCRB ADSI 2022, Table 1.7)"
+        },
+        {
+          "year": 2024,
+          "value": 5888,
+          "label": "2024: 5,888 (NCRB, as reported by Dataful)"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "The earth pin of an Indian 6 A plug is 20.6 mm long and the other two are 14.9 mm, so earth always connects first.",
+    "A 6 A extension board can feed about 1,380 W in total. One 1,500 W kettle is already too much for it.",
+    "The power board was designed at Kambrook in Australia in 1972 and never patented.",
+    "A varistor leaks only microamps at 230 V but can pass thousands of amps for a few millionths of a second.",
+    "India's standard for extension boards themselves, IS 18830, dates only from 2024."
+  ],
+  "sources": [
+    {
+      "title": "History of AC power plugs and sockets",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_AC_power_plugs_and_sockets"
+    },
+    {
+      "title": "AC power plugs and sockets",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/AC_power_plugs_and_sockets"
+    },
+    {
+      "title": "Edison screw",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Edison_screw"
+    },
+    {
+      "title": "US 774,250: Separable attachment-plug (H. Hubbell, 1904)",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US774250A/en"
+    },
+    {
+      "title": "US 1,672,067: Grounding receptacle and plug (P. F. Labre, 1928)",
+      "publisher": "Google Patents",
+      "url": "https://patents.google.com/patent/US1672067A/en"
+    },
+    {
+      "title": "BS 546",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/BS_546"
+    },
+    {
+      "title": "Schuko",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Schuko"
+    },
+    {
+      "title": "Power strip",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Power_strip"
+    },
+    {
+      "title": "Varistor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Varistor"
+    },
+    {
+      "title": "'Pioneer' of zinc oxide varistor",
+      "publisher": "Panasonic Industry",
+      "url": "https://industrial.panasonic.com/ww/products-emc-circuit-protection/circuit-protection/surge-components/pioneer"
+    },
+    {
+      "title": "The GE-MOV Saga: Retrospective 1970–2004 (Martzloff surge-protection anthology)",
+      "publisher": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov/document/gemovsagapdf"
+    },
+    {
+      "title": "Surge protector",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Surge_protector"
+    },
+    {
+      "title": "A Historic Perspective on Surge Protection",
+      "publisher": "IAEI Magazine",
+      "url": "https://iaeimagazine.org/2000/2000march/installing-transient-voltage-surge-suppressors-tvss/"
+    },
+    {
+      "title": "Fuse (electrical): history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fuse_(electrical)"
+    },
+    {
+      "title": "Miniature Circuit Breaker 'hidden hero' marks 100 years of safety",
+      "publisher": "ABB News",
+      "url": "https://new.abb.com/news/detail/117219/miniature-circuit-breaker-hidden-hero-marks-100-years-of-safety-in-enabling-energy-transition"
+    },
+    {
+      "title": "Bimetallic strip",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bimetallic_strip"
+    },
+    {
+      "title": "Residual-current device: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Residual-current_device"
+    },
+    {
+      "title": "Charles Dalziel",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles_Dalziel"
+    },
+    {
+      "title": "USB hardware: power",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/USB_hardware"
+    },
+    {
+      "title": "IS 18830:2024 Cord extension sets: specifications (Know Your Standards)",
+      "publisher": "Bureau of Indian Standards",
+      "url": "http://www.services.bis.gov.in/php/BIS_2.0/bisconnect/knowyourstandards/Indian_standards/isdetails/MzIwOTY="
+    },
+    {
+      "title": "Standards for plugs, socket outlets and switches",
+      "publisher": "Bureau of Indian Standards",
+      "url": "https://www.services.bis.gov.in/php/BIS_2.0/BISBlog/standards-for-plugs-socket-outlets-and-switches/"
+    },
+    {
+      "title": "Accidental Deaths & Suicides in India 2022, Table 1.7",
+      "publisher": "National Crime Records Bureau",
+      "url": "https://www.ncrb.gov.in/uploads/nationalcrimerecordsbureau/custom/1702017219Table17allindia.pdf"
+    },
+    {
+      "title": "Mains electricity by country",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mains_electricity_by_country"
+    },
+    {
+      "title": "Plug and socket type D",
+      "publisher": "WorldStandards",
+      "url": "https://www.worldstandards.eu/electricity/plugs-and-sockets/d/"
+    },
+    {
+      "title": "Central Electricity Authority Regulations",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Central_Electricity_Authority_Regulations"
+    },
+    {
+      "title": "CEA (Measures relating to Safety and Electric Supply) Regulations, 2023",
+      "publisher": "Central Electricity Authority",
+      "url": "https://cea.nic.in/regulations/central-electricity-authority-measures-relating-to-safety-and-electric-supply-regulations-2023/?lang=en"
+    },
+    {
+      "title": "Extension cord",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Extension_cord"
+    },
+    {
+      "title": "Firefighters urge people not to overload sockets after Morden house fire",
+      "publisher": "London Fire Brigade",
+      "url": "https://www.london-fire.gov.uk/incidents/2019/february/firefighters-urge-people-not-to-overload-sockets-after-morden-house-fire"
+    },
+    {
+      "title": "Nearly 6,000 fire accident deaths in 2024 despite sharp decline in accidents (NCRB data)",
+      "publisher": "Dataful by Factly",
+      "url": "https://insights.dataful.in/articles/nearly-6000-fire-accident-deaths-in-2024-despite-sharp-decline-in-accidents"
+    },
+    {
+      "title": "India: Bureau of Indian Standards extends date of implementation of IS 1293:2019",
+      "publisher": "TÜV SÜD",
+      "url": "https://www.tuvsud.com/en-in/e-ssentials-newsletter/consumer-products-and-retail-essentials/e-ssentials-14-2020/india-bureau-of-indian-standards-extends-date-of-implementation-of-is-1293-2019"
+    },
+    {
+      "title": "IEC 61000-4-5",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/IEC_61000-4-5"
+    },
+    {
+      "title": "Fire precautions: residential area",
+      "publisher": "Delhi Fire Service, Government of NCT of Delhi",
+      "url": "https://dfs.delhi.gov.in/dfs/fire-precautions-residential-area-0"
+    },
+    {
+      "title": "Circuit breaker: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Circuit_breaker"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "extensionboardclear",
+  "box": 155,
+  "question": "How does an extension board work?",
+  "url": "https://glassbox.how/e/extensionboardclear/",
+  "app": "https://glassbox.how/extensionboardclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "history": {
+      "instagram": "About 140 years from appliances screwed into lamp sockets to a strip of sockets with a fuse, a varistor and a standard of its own.\n\n1881: The lamp socket becomes the first outlet\n1904: The plug you can pull out\n1915: The earth pin is made longer\n1928: A grounded plug for American homes\n1934: BS 546: the round-pin family India still uses\n1968: The zinc oxide varistor\n\nThe full story, with 28 moments, sources and charts: glassbox.how/e/extensionboardclear/history (link in bio)\n\nThen play with how it works: glassbox.how/extensionboardclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #extensionboard #powerstrip #spikeguard #surgeprotector #electricalsafety #fuse #history",
+      "youtube": {
+        "title": "The history of the extension board in 45 seconds #shorts",
+        "description": "About 140 years from appliances screwed into lamp sockets to a strip of sockets with a fuse, a varistor and a standard of its own.\n\n1881 · The lamp socket becomes the first outlet (Thomas Edison)\n1904 · The plug you can pull out (Harvey Hubbell)\n1915 · The earth pin is made longer (George P. Knapp for Harvey Hubbell; British Engineering Standards Association)\n1928 · A grounded plug for American homes (Philip F. Labre)\n1934 · BS 546: the round-pin family India still uses (British Standards Institution)\n1968 · The zinc oxide varistor (Michio Matsuoka and colleagues, Matsushita Electric)\n\n▶ Full history: https://glassbox.how/e/extensionboardclear/history/\n▶ Play with it: https://glassbox.how/e/extensionboardclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
+    "instagram": "How does an extension board work?\n\nInside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.\n\n→ Inside an extension board there are just three strips of brass: live, neutral and earth.\n→ The earth pin is longer, so it connects first and opens the child shutters.\n→ Every socket gets the full 230 volts, and every appliance adds its own current to the bar.\n→ A kettle, an iron and a heater together pull about 20 amps through a cord made for 6.\n→ A cord is a long thin resistor: double the current and it makes four times the heat.\n\nPlay with it yourself. It's free and open source: glassbox.how/extensionboardclear (link in bio)\n\nBox No. 155 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #extensionboard #powerstrip #spikeguard #surgeprotector #electricalsafety #fuse #earthing #threejs",
+    "carousel": "Swipe through: How does an extension board work?\n\nInside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.\n\nSave this for later, then play with the interactive version at glassbox.how/extensionboardclear (link in bio).\n\nBox No. 155 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #extensionboard #powerstrip #spikeguard #surgeprotector #electricalsafety #fuse",
+    "youtube": {
+      "title": "How does an extension board work? #shorts",
+      "description": "Inside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.\n\n▶ Play with it: https://glassbox.how/e/extensionboardclear/\n⌘ Source code (MIT): https://github.com/bdeeps/extensionboardclear\n\nBox No. 155 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does an extension board work? (interactive explainer)",
+      "description": "Inside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.\n\n▶ Play with the interactive version: https://glassbox.how/e/extensionboardclear/\n⌘ Source code (MIT): https://github.com/bdeeps/extensionboardclear\n\nIn this video:\n• Three strips of brass. Inside the board, three brass bus bars run its whole length: live, neutral and earth.\n• Everything in parallel. Every socket gets the full 230 V, and each appliance draws its own current, I = P ÷ V.\n• Why cords get hot. A cord is a long, thin resistor: about 0.026 Ω per metre in each core of a 0.75 mm² cord.\n• The wall MCB does not guard the cord. The board's own fuse or bimetal breaker follows a time-current curve: minutes for a small overload, a blink for a big one.\n• Spikes and the third pin. A spike guard's blue disc is a varistor.\n• Read the label, not the name. An extension board is sockets on a cord.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does an extension board work?\n\nInside every extension board are just three strips of brass.\n\nPlay with it: https://glassbox.how/e/extensionboardclear/",
+    "linkedin": "How does an extension board work?\n\nInside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.\n\n1. Three strips of brass\n2. Everything in parallel\n3. Why cords get hot\n4. The wall MCB does not guard the cord\n5. Spikes and the third pin\n6. Read the label, not the name\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 155 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/extensionboardclear/\nCode: https://github.com/bdeeps/extensionboardclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-10-06T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-10-06T07:29:00.597Z"
+}

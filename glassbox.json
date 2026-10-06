@@ -1,0 +1,104 @@
+{
+  "slug": "extensionboardclear",
+  "box": 155,
+  "date": "2026-10-06",
+  "title": "ExtensionBoardClear",
+  "question": "How does an extension board work?",
+  "hook": "Inside every extension board are just three strips of brass. Plug in a kettle, an iron and a heater and watch 20 amps squeeze through a cord made for 6, see why a coiled reel cooks, and find out what a spike guard really guards against.",
+  "thumbText": "HOW AN EXTENSION BOARD WORKS",
+  "field": "physics",
+  "minutes": 15,
+  "tags": [
+    "extension board",
+    "power strip",
+    "spike guard",
+    "surge protector",
+    "electrical safety",
+    "fuse",
+    "earthing",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Three strips of brass",
+      "text": "Inside the board, three brass bus bars run its whole length: live, neutral and earth. Every socket is three spring clips on those same bars. The cord's live core passes through a fuse and the master switch first. On an Indian IS 1293 plug the earth pin is 20.6 mm long against 14.9 mm, so earth connects first and pushes the child shutters open."
+    },
+    {
+      "title": "Everything in parallel",
+      "text": "Every socket gets the full 230 V, and each appliance draws its own current, I = P ÷ V. A phone charger takes 0.04 A, a 1,500 W kettle 6.5 A. The currents add on the bar and the whole total comes down one cord. A 6 A board can feed about 1,380 W in all, a 16 A one 3,680 W, however many sockets it has."
+    },
+    {
+      "title": "Why cords get hot",
+      "text": "A cord is a long, thin resistor: about 0.026 Ω per metre in each core of a 0.75 mm² cord. Heat is I²R, so double the current makes four times the heat. Coiled on a reel or under a carpet that heat cannot escape. A loose contact of 0.2 Ω at 10 A makes 20 W in a spot the size of a pea, and nothing trips."
+    },
+    {
+      "title": "The wall MCB does not guard the cord",
+      "text": "The board's own fuse or bimetal breaker follows a time-current curve: minutes for a small overload, a blink for a big one. The 16 A MCB in the wall is sized for the wall wiring and carries 18 A for an hour, long after a thin 6 A cord has passed 70 °C. Only a short circuit of hundreds of amps trips it at once."
+    },
+    {
+      "title": "Spikes and the third pin",
+      "text": "A spike guard's blue disc is a varistor. At 230 V it leaks a few microamps; above about 430 V it conducts thousands of amps and clamps a spike to under 1,000 V. Every hit wears it and it cannot survive a long over-voltage. The earth pin does a different job: it carries fault current away so an RCCB, fuse or MCB can cut the power."
+    },
+    {
+      "title": "Read the label, not the name",
+      "text": "An extension board is sockets on a cord. A spike guard adds a fuse and one small varistor. A surge protector states its clamping voltage and joules. Only a UPS has a battery. None stops a shock: that needs earth and an RCCB. Look for the ISI mark with IS 1293 and IS 694, add up the watts, unwind reels and never chain boards."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Bus bar",
+      "def": "A metal strip that many things connect to. An extension board has three: live, neutral and earth."
+    },
+    {
+      "term": "Parallel circuit",
+      "def": "Loads connected across the same two wires, so each gets the full voltage and their currents add."
+    },
+    {
+      "term": "Rated current",
+      "def": "The current a cord, plug or board is built to carry all day: 6 A, 10 A or 16 A. Times 230 V gives the watts."
+    },
+    {
+      "term": "I²R heating",
+      "def": "The heat made in any resistance: current squared times resistance. It is why overloaded cords and loose contacts get hot."
+    },
+    {
+      "term": "Time-current curve",
+      "def": "A graph of how long a fuse or breaker waits at each current: minutes for small overloads, milliseconds for short circuits."
+    },
+    {
+      "term": "Thermal breaker",
+      "def": "A push-to-reset switch opened by a bimetal strip that bends as the current warms it."
+    },
+    {
+      "term": "Varistor (MOV)",
+      "def": "A zinc oxide disc that is nearly an insulator at mains voltage and conducts hard above about 430 V, clamping spikes."
+    },
+    {
+      "term": "Earthing",
+      "def": "Connecting metal cases to the ground through the third pin, so a fault current has a path and a protector can trip."
+    },
+    {
+      "term": "ISI mark",
+      "def": "The Bureau of Indian Standards mark with an IS number, such as IS 1293 for plugs and sockets and IS 694 for PVC cords."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "extensionboardclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
